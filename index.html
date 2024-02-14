@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Special Valentine</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: pink; text-align: center; padding: 20px; }
+        .heart { font-size: 3rem; color: red; animation: throb 1.5s infinite; }
+        @keyframes throb { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.2); } }
+        .option { cursor: pointer; background-color: #ffcccc; padding: 10px 20px; display: inline-block; border-radius: 5px; margin: 20px; transition: background-color 0.3s; }
+        .option:hover { background-color: #ffaaaa; }
+    </style>
+</head>
+<body>
+    <div class="heart">❤️</div>
+    <p>Will you be my valentine?</p>
+    <div class="option" onclick="location.href='try-again.html'">Yes :(</div>
+    <div class="option" onclick="location.href='pinky-promise.html'">For every single Valentine of my life, I would choose you!</div>
+</body>
+</html>
